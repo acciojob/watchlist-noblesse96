@@ -23,8 +23,8 @@ public class MovieService {
         movieRepository.directorMoviePair(director, movie);
     }
 
-    public Movie getMovie(String movie){
-        return movieRepository.getMovie(movie);
+    public Movie getMovieByName(String movie){
+        return movieRepository.getMovieByName(movie);
     }
 
     public List<String> getMovies(){

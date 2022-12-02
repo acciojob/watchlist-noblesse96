@@ -34,7 +34,7 @@ public class MovieRepository {
         }
     }
 
-    public Movie getMovie(String movie){
+    public Movie getMovieByName(String movie){
         return movieMap.get(movie);
     }
 
